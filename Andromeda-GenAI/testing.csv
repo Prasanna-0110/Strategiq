@@ -1,0 +1,11 @@
+Customer ID,Age,Gender,Marital Status,Income (Annual),Occupation,Credit Score,Outstanding Loans,Banking History,Current Account Balance,Savings Account Balance,Mortgage/Property Ownership,Vehicle Owned,Insurance Coverage,Investment Portfolio,Digital Banking Usage,Risk Appetite,Location,Spending Habits
+1001,32,M,Married,80000,Engineer,750,10000,Savings--Home Loan,5000,20000,Yes,Yes,Health--Life,Mutual Funds,High,Balanced,New York,Moderate
+1002,45,F,Single,120000,Business Owner,650,50000,Savings--Credit Card,10000,5000,No,Yes,Health--Life--Auto,Stocks,Medium,Aggressive,Chicago,High
+1003,29,F,Married,60000,Teacher,720,15000,Savings--Personal Loan,3000,10000,No,No,Health,Mutual Funds,Medium,Conservative,Boston,Low
+1004,54,M,Divorced,150000,Doctor,800,20000,Savings--Home Loan--Credit Card,20000,30000,Yes,Yes,Health--Life--Home,Stocks--Bonds,High,Moderate,San Francisco,High
+1005,38,M,Single,70000,IT Professional,680,10000,Savings--Credit Card,7000,15000,No,Yes,Health--Auto,Mutual Funds,Medium,Moderate,Austin,Moderate
+1006,27,F,Married,90000,Lawyer,750,0,Savings,15000,25000,Yes,No,Health--Life,Stocks,High,Aggressive,Seattle,High
+1007,43,M,Married,110000,Architect,690,30000,Savings--Home Loan,5000,10000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,Medium,Conservative,Denver,Moderate
+1008,35,F,Single,50000,Sales Representative,720,5000,Savings--Credit Card,2000,5000,No,No,Health,Stocks,Medium,Aggressive,Miami,High
+1009,30,M,Single,80000,Engineer,740,20000,Savings--Car Loan,8000,20000,Yes,Yes,Health--Auto,Mutual Funds--Stocks,High,Balanced,Los Angeles,Moderate
+1010,50,F,Married,130000,Manager,650,15000,Savings--Home Loan--Credit Card,10000,30000,Yes,Yes,Health--Life--Home,Stocks--Bonds,Medium,Aggressive,Chicago,High

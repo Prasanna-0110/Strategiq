@@ -1,0 +1,129 @@
+// Variables for colors
+$background-light-blue: #f0f8ff;
+$accent-blue: #82b1ff;
+$text-dark: #1c2b36;
+$button-blue: #82b1ff;
+$button-hover: #5a9bd4;
+$white: #ffffff;
+
+// Global styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: $background-light-blue;
+  color: $text-dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+app-home {
+  .container {
+    background-color: $white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: $accent-blue;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  .upload-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .upload-label {
+    background-color: $button-blue;
+    color: $white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $button-hover;
+    }
+
+    .file-input {
+      display: none;
+    }
+  }
+
+  .upload-btn {
+    background-color: $button-blue;
+    border: none;
+    color: $white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+
+    &:hover {
+      background-color: $button-hover;
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  // Footer text styling with animation
+  .footer-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $accent-blue; /* Same color as 'StrategIQ' */
+    animation: fadeInFooter 1s ease-in-out forwards;
+  }
+
+  // Animation for footer text (slide in from bottom)
+  @keyframes fadeInFooter {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  // Barclays logo styling
+  .logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: auto;
+  }
+}

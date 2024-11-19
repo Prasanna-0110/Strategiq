@@ -1,0 +1,76 @@
+{
+    "choices": [
+        {
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "protected_material_code": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "protected_material_text": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            },
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "Customer ID,Age,Gender,Marital Status,Income (Annual),Occupation,Credit Score,Outstanding Loans,Banking History,Current Account Balance,Savings Account Balance,Mortgage/Property Ownership,Vehicle Owned,Insurance Coverage,Investment Portfolio,Digital Banking Usage,Risk Appetite,Location,Spending Habits\n1001,32,M,Married,80000,Engineer,750,10000,Savings--Home Loan,5000,20000,Yes,Yes,Health--Life,Mutual Funds,High,Balanced,New York,Moderate\n1002,45,F,Single,120000,Business Owner,650,50000,Savings--Credit Card,10000,5000,No,Yes,Health--Life--Auto,Stocks,Medium,Aggressive,Chicago,High\n1003,29,F,Married,60000,Teacher,720,15000,Savings--Personal Loan,3000,10000,No,No,Health,Mutual Funds,Medium,Conservative,Boston,Low\n1004,54,M,Divorced,150000,Doctor,800,20000,Savings--Home Loan--Credit Card,20000,30000,Yes,Yes,Health--Life--Home,Stocks--Bonds,High,Moderate,San Francisco,High\n1005,38,M,Single,70000,IT Professional,680,10000,Savings--Credit Card,7000,15000,No,Yes,Health--Auto,Mutual Funds,Medium,Moderate,Austin,Moderate\n1006,27,F,Married,90000,Lawyer,750,0,Savings,15000,25000,Yes,No,Health--Life,Stocks,High,Aggressive,Seattle,High\n1007,43,M,Married,110000,Architect,690,30000,Savings--Home Loan,5000,10000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,Medium,Conservative,Denver,Moderate\n1008,35,F,Single,50000,Sales Representative,720,5000,Savings--Credit Card,2000,5000,No,No,Health,Stocks,Medium,Aggressive,Miami,High\n1009,30,M,Single,80000,Engineer,740,20000,Savings--Car Loan,8000,20000,Yes,Yes,Health--Auto,Mutual Funds--Stocks,High,Balanced,Los Angeles,Moderate\n1010,50,F,Married,130000,Manager,650,15000,Savings--Home Loan--Credit Card,10000,30000,Yes,Yes,Health--Life--Home,Stocks--Bonds,Medium,Aggressive,Chicago,High\n1011,28,M,Single,55000,Graphic Designer,710,5000,Savings--Personal Loan,4000,8000,No,No,Health,Mutual Funds,Medium,Conservative,Houston,Low\n1012,47,F,Divorced,95000,Real Estate Agent,680,30000,Savings--Home Loan,5000,10000,Yes,Yes,Health--Life,Stocks,Medium,Moderate,Boston,Moderate\n1013,31,F,Married,75000,Marketing Specialist,740,10000,Savings--Credit Card,7000,15000,No,No,Health--Auto,Mutual Funds,High,Balanced,New York,Moderate\n1014,52,M,Married,140000,Consultant,800,25000,Savings--Home Loan--Credit Card,15000,35000,Yes,Yes,Health--Life--Home,Stocks--Bonds,High,Moderate,San Francisco,High\n1015,36,F,Single,65000,HR Manager,720,5000,Savings--Personal Loan,6000,12000,No,Yes,Health,Mutual Funds,Medium,Aggressive,Chicago,High\n1016,29,M,Single,90000,Software Developer,750,15000,Savings--Car Loan,8000,20000,No,Yes,Health--Auto,Stocks--Mutual Funds,High,Balanced,Denver,Moderate\n1017,42,F,Married,115000,Pharmacist,700,20000,Savings--Home Loan,5000,15000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,Medium,Conservative,Seattle,Moderate\n1018,34,M,Single,55000,Accountant,690,10000,Savings--Credit Card,3000,7000,No,No,Health,Stocks,Medium,Aggressive,Miami,High\n1019,55,F,Married,150000,Engineer,750,25000,Savings--Home Loan--Credit Card,20000,40000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,High,Moderate,Los Angeles,High\n1020,27,M,Single,70000,Teacher,720,5000,Savings--Personal Loan,5000,10000,No,No,Health,Stocks,Medium,Balanced,Houston,Low\n1021,48,F,Divorced,95000,Consultant,680,30000,Savings--Home Loan,6000,15000,Yes,Yes,Health--Life,Mutual Funds,Medium,Moderate,Boston,Moderate\n1022,37,M,Married,80000,Sales Manager,740,10000,Savings--Credit Card,7000,15000,No,Yes,Health--Auto,Stocks,High,Balanced,New York,Moderate\n1023,29,F,Single,60000,Nurse,730,5000,Savings--Personal Loan,4000,8000,No,No,Health,Mutual Funds,Medium,Conservative,Chicago,Low\n1024,53,M,Married,125000,Doctor,800,20000,Savings--Home Loan--Credit Card,10000,25000,Yes,Yes,Health--Life--Home,Stocks--Bonds,High,Aggressive,San Francisco,High\n1025,40,F,Single,70000,Engineer,680,10000,Savings--Credit Card,5000,10000,No,Yes,Health--Auto,Mutual Funds,Medium,Moderate,Denver,Moderate\n1026,31,M,Married,85000,Software Developer,740,20000,Savings--Car Loan,8000,20000,Yes,Yes,Health--Life,Stocks--Mutual Funds,High,Balanced,Seattle,High\n1027,46,F,Divorced,115000,Manager,720,30000,Savings--Home Loan,4000,10000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,Medium,Conservative,Miami,Moderate\n1028,28,M,Single,60000,Graphic Designer,710,5000,Savings--Personal Loan,3000,7000,No,No,Health,Stocks,Medium,Aggressive,Los Angeles,High\n1029,49,F,Married,130000,Consultant,750,15000,Savings--Home Loan--Credit Card,10000,30000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,High,Moderate,Houston,High\n1030,35,M,Single,55000,Sales Representative,690,10000,Savings--Credit Card,2000,5000,No,No,Health,Stocks,Medium,Conservative,Boston,Low\n1031,56,F,Married,150000,Engineer,800,25000,Savings--Home Loan--Credit Card,20000,40000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,High,Aggressive,New York,High\n1032,28,M,Single,70000,Teacher,720,5000,Savings--Personal Loan,5000,10000,No,No,Health,Stocks,Medium,Balanced,Chicago,Moderate\n1033,47,F,Divorced,95000,Consultant,680,30000,Savings--Home Loan,6000,15000,Yes,Yes,Health--Life,Mutual Funds,Medium,Moderate,San Francisco,Moderate\n1034,36,M,Married,80000,Sales Manager,740,10000,Savings--Credit Card,7000,15000,No,Yes,Health--Auto,Stocks,High,Balanced,Denver,High\n1035,30,F,Single,60000,Nurse,730,5000,Savings--Personal Loan,4000,8000,No,No,Health,Mutual Funds,Medium,Conservative,Seattle,Low\n1036,54,M,Married,125000,Doctor,800,20000,Savings--Home Loan--Credit Card,10000,25000,Yes,Yes,Health--Life--Home,Stocks--Bonds,High,Aggressive,Miami,High\n1037,41,F,Single,70000,Engineer,680,10000,Savings--Credit Card,5000,10000,No,Yes,Health--Auto,Mutual Funds,Medium,Moderate,Los Angeles,Moderate\n1038,32,M,Married,85000,Software Developer,740,20000,Savings--Car Loan,8000,20000,Yes,Yes,Health--Life,Stocks--Mutual Funds,High,Balanced,Houston,Moderate\n1039,45,F,Divorced,115000,Manager,720,30000,Savings--Home Loan,4000,10000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,Medium,Conservative,Boston,Moderate\n1040,29,M,Single,60000,Graphic Designer,710,5000,Savings--Personal Loan,3000,7000,No,No,Health,Stocks,Medium,Aggressive,New York,High\n1041,48,F,Married,130000,Consultant,750,15000,Savings--Home Loan--Credit Card,10000,30000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,High,Moderate,Chicago,High\n1042,37,M,Single,55000,Sales Representative,690,10000,Savings--Credit Card,2000,5000,No,No,Health,Stocks,Medium,Conservative,San Francisco,Low\n1043,50,F,Married,150000,Engineer,800,25000,Savings--Home Loan--Credit Card,20000,40000,Yes,Yes,Health--Life--Home,Mutual Funds--Bonds,High,Aggressive,Denver,High\n1044,27,M,Single,70000,Teacher,720,5000,Savings--Personal Loan,5000,10000,No,No,Health,Stocks,Medium,Balanced,Seattle,Moderate\n1045,46,F,Divorced,95000,Consultant,680,30000,Savings--Home Loan,6000,15000,Yes,Yes,Health--Life,Mutual Funds,Medium,Moderate,Miami,Moderate\n1046,34,M,Married,80000,Sales Manager,740,10000,Savings--Credit Card,7000,15000,No,Yes,Health--Auto,Stocks,High,Balanced,Los Angeles,High\n1047,30,F,Single,60000,Nurse,730,5000,Savings--Personal Loan,4000,8000,No,No,Health,Mutual Funds,Medium,Conservative,Houston,Low\n1048,53,M,Married,125000,Doctor,800,20000,Savings--Home Loan--Credit Card,10000,25000,Yes,Yes,Health--Life--Home,Stocks--Bonds,High,Aggressive,Boston,High\n1049,39,F,Single,70000,Engineer,680,10000,Savings--Credit Card,5000,10000,No,Yes,Health--Auto,Mutual Funds,Medium,Moderate,New York,Moderate\n1050,31,M,Married,85000,Software Developer,740,20000,Savings--Car Loan,8000,20000,Yes,Yes,Health--Life,Stocks--Mutual Funds,High,Balanced,Chicago,Moderate",
+                "role": "assistant"
+            }
+        }
+    ],
+    "created": 1731508548,
+    "id": "chatcmpl-AT8lAyO47N6i9q5j7xo2Pp7C3PDfW",
+    "model": "gpt-4o-2024-05-13",
+    "object": "chat.completion",
+    "prompt_filter_results": [
+        {
+            "prompt_index": 0,
+            "content_filter_results": {
+                "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "jailbreak": {
+                    "filtered": false,
+                    "detected": false
+                },
+                "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                },
+                "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                }
+            }
+        }
+    ],
+    "system_fingerprint": "fp_67802d9a6d",
+    "usage": {
+        "completion_tokens": 2713,
+        "prompt_tokens": 396,
+        "total_tokens": 3109
+    }
+}

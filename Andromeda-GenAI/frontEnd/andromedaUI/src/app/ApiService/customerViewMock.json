@@ -1,0 +1,187 @@
+{
+  "customers": [
+  {
+  "customerId": "1",
+  "age":"28",
+  "gender": "M",
+  "maritalStatus": "Married",
+  "income": "80000",
+  "occupation": "Engineer",
+  "creditScore": "750",
+  "outStandingLoans": "10000",
+  "bankingHistory": "Savings--Home Loan",
+  "currentAccountBalance": "5000",
+  "savingsAccountBalance": "20000",
+  "propertyOwnership": "Yes",
+  "vehicleOwned": "Yes",
+  "insuranceCoverage": "Health--Life",
+  "investmentPortfolio": "Mutual Funds",
+  "digitalBankingUsage": "High",
+  "riskAppetite": "Balanced",
+  "location": "New York",
+  "spendingHabits": "Moderate",
+  "cscore": "8.2",
+  "services": [
+  {
+  "serviceName": "Savings Account",
+  "sscore": "8",
+  "pitchDesciption":"\"A Savings Account is an essential financial tool that offers you the flexibility to save and grow your money with ease. With our competitive interest rates"
+  },
+  {
+  "serviceName": "Fixed Deposits",
+  "sscore": "8",
+  "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+  },
+  {
+  "serviceName": "Home Loan",
+  "sscore": "9",
+  "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+  },
+  {
+  "serviceName": "Credit Card",
+  "sscore": "9",
+  "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+  },
+  {
+  "serviceName": "Online and Mobile Banking",
+  "sscore": "10",
+  "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+  },
+  {
+  "serviceName": "Life Insurance",
+  "sscore": "8",
+  "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+  },
+  {
+  "serviceName": "Overall Score",
+  "sscore": "8.5",
+  "pitchDesciption":"\"Based on the services you should opt for  your overall financial health score is 8.5. This indicates a strong foundation in managing your finances and making informed decisions to secure your future. Continue to leverage these services to achieve your financial goals and enjoy a stable and prosperous life."
+  }
+
+
+  ]
+  },
+  {
+    "customerId": "2",
+    "age":"28",
+    "gender": "M",
+    "maritalStatus": "Married",
+    "income": "80000",
+    "occupation": "Engineer",
+    "creditScore": "750",
+    "outStandingLoans": "10000",
+    "bankingHistory": "Savings--Home Loan",
+    "currentAccountBalance": "5000",
+    "savingsAccountBalance": "20000",
+    "propertyOwnership": "Yes",
+    "vehicleOwned": "Yes",
+    "insuranceCoverage": "Health--Life",
+    "investmentPortfolio": "Mutual Funds",
+    "digitalBankingUsage": "High",
+    "riskAppetite": "Balanced",
+    "location": "New York",
+    "spendingHabits": "Moderate",
+    "cscore": "9.2",
+    "services": [
+    {
+    "serviceName": "Savings Account",
+    "sscore": "8",
+    "pitchDesciption":"\"A Savings Account is an essential financial tool that offers you the flexibility to save and grow your money with ease. With our competitive interest rates"
+    },
+    {
+    "serviceName": "Fixed Deposits",
+    "sscore": "8",
+    "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+    },
+    {
+    "serviceName": "Home Loan",
+    "sscore": "9",
+    "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+    },
+    {
+    "serviceName": "Credit Card",
+    "sscore": "9",
+    "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+    },
+    {
+    "serviceName": "Online and Mobile Banking",
+    "sscore": "10",
+    "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+    },
+    {
+    "serviceName": "Life Insurance",
+    "sscore": "8",
+    "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+    },
+    {
+    "serviceName": "Overall Score",
+    "sscore": "8.5",
+    "pitchDesciption":"\"Based on the services you should opt for  your overall financial health score is 8.5. This indicates a strong foundation in managing your finances and making informed decisions to secure your future. Continue to leverage these services to achieve your financial goals and enjoy a stable and prosperous life."
+    }
+
+
+    ]
+    },
+    {
+      "customerId": "3",
+      "age":"28",
+      "gender": "M",
+      "maritalStatus": "Married",
+      "income": "80000",
+      "occupation": "Engineer",
+      "creditScore": "750",
+      "outStandingLoans": "10000",
+      "bankingHistory": "Savings--Home Loan",
+      "currentAccountBalance": "5000",
+      "savingsAccountBalance": "20000",
+      "propertyOwnership": "Yes",
+      "vehicleOwned": "Yes",
+      "insuranceCoverage": "Health--Life",
+      "investmentPortfolio": "Mutual Funds",
+      "digitalBankingUsage": "High",
+      "riskAppetite": "Balanced",
+      "location": "New York",
+      "spendingHabits": "Moderate",
+      "cscore": "5.2",
+      "services": [
+      {
+      "serviceName": "Savings Account",
+      "sscore": "8",
+      "pitchDesciption":"\"A Savings Account is an essential financial tool that offers you the flexibility to save and grow your money with ease. With our competitive interest rates"
+      },
+      {
+      "serviceName": "Fixed Deposits",
+      "sscore": "8",
+      "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+      },
+      {
+      "serviceName": "Home Loan",
+      "sscore": "9",
+      "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+      },
+      {
+      "serviceName": "Credit Card",
+      "sscore": "9",
+      "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+      },
+      {
+      "serviceName": "Online and Mobile Banking",
+      "sscore": "10",
+      "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+      },
+      {
+      "serviceName": "Life Insurance",
+      "sscore": "8",
+      "pitchDesciption":"\"Fixed Deposits are a great way to earn a higher interest rate on your savings while ensuring the safety of your principal amount. By locking in your funds for a fixed tenure"
+      },
+      {
+      "serviceName": "Overall Score",
+      "sscore": "8.5",
+      "pitchDesciption":"\"Based on the services you should opt for  your overall financial health score is 8.5. This indicates a strong foundation in managing your finances and making informed decisions to secure your future. Continue to leverage these services to achieve your financial goals and enjoy a stable and prosperous life."
+      }
+
+
+      ]
+      }
+  ]
+  }

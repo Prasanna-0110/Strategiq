@@ -1,0 +1,39 @@
+{
+  "choices": [
+    {
+      "content_filter_results": {
+        "hate": { "filtered": false, "severity": "safe" },
+        "protected_material_code": { "filtered": false, "detected": false },
+        "protected_material_text": { "filtered": false, "detected": false },
+        "self_harm": { "filtered": false, "severity": "safe" },
+        "sexual": { "filtered": false, "severity": "safe" },
+        "violence": { "filtered": false, "severity": "safe" }
+      },
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "The capital of France is Paris.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1731494019,
+  "id": "chatcmpl-AT4ypZMxsx5hnj9OZ75LnTKVp0e8l",
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "prompt_index": 0,
+      "content_filter_results": {
+        "hate": { "filtered": false, "severity": "safe" },
+        "jailbreak": { "filtered": false, "detected": false },
+        "self_harm": { "filtered": false, "severity": "safe" },
+        "sexual": { "filtered": false, "severity": "safe" },
+        "violence": { "filtered": false, "severity": "safe" }
+      }
+    }
+  ],
+  "system_fingerprint": "fp_67802d9a6d",
+  "usage": { "completion_tokens": 7, "prompt_tokens": 29, "total_tokens": 36 }
+}

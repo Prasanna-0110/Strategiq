@@ -1,0 +1,47 @@
+<div class="accordion" id="customerDetailAccordion">
+    <!-- Button to toggle the "Show Customer Data" section -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingShowCustomerData">
+        <button class="accordion-button" type="button" (click)="toggleCollapse()">
+          Show Customer Data
+        </button>
+      </h2>
+      <div *ngIf="isCollapsed" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <!-- Table for customer data key-value pairs -->
+          <table class="table">
+            <tr *ngFor="let entry of customerDetails">
+              <td><strong>{{entry.key | titlecase}}</strong></td>
+              <td>{{entry.value}}</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  
+      <!-- Histogram (Bar chart) visualization -->
+      <div style="height: 400px; width: 100%;"> <!-- Ensuring full width and height -->
+        <canvas #chartRef></canvas> <!-- Chart.js canvas reference -->
+      </div>
+  
+      <!-- Table to display Service Name, Service Score, and Pitch Description -->
+      <div class="service-table mt-4">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Service Name</th>
+              <th>Service Score</th>
+              <th>Pitch Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let service of customerData.services">
+              <td>{{ service.serviceName }}</td>
+              <td>{{ service.sscore }}</td>
+              <td>{{ service.pitchDesciption }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

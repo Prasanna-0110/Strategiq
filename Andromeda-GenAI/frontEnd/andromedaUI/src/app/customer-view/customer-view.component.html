@@ -1,0 +1,30 @@
+<div class="container" style="width: 70%; margin:auto;">
+    <h2>Customer Score Histogram</h2>
+    <canvas #histogramCanvas></canvas>  <!-- Use canvas with ViewChild for direct Chart.js rendering -->
+  </div>
+  
+
+  <div class="table-container ">
+    <h2>Customer Financial Overview</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>CSID</th>
+          <th>Avg Score</th>
+          <th *ngFor="let service of customers[0].services.slice(0, customers[0].services.length - 1)">{{service.serviceName}}</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Sample data rows -->
+        <tr *ngFor="let customer of customers">
+          <a [routerLink]="['/customer-detail-view']" [state]="{ customer: customer }">            {{ customer.customerId }}           </a>
+          <td>{{customer.cscore}}</td>
+         
+          <td *ngFor="let service of customer.services.slice(0, customer.services.length -1)" >{{service.sscore}}</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,55 @@
+Customer 1001 (Age: 32, Occupation: Engineer, Income: $80,000, etc.)
+Service	Score	Reasoning
+Savings Account	9	Strong fit, given a healthy income and likely to maintain savings.
+Current Account	8	Likely to have a current account for day-to-day transactions with a $5,000 balance.
+Fixed Deposits	7	Might consider fixed deposits as part of long-term savings.
+Term Deposits	6	Less likely to focus on term deposits as a primary savings vehicle, but still a possibility.
+Recurring Deposits	6	May consider recurring deposits for structured savings, but likely more focused on other savings tools.
+Personal Loan	5	May not need a personal loan, as no immediate need or debt is indicated.
+Home Loan	9	A strong candidate for a home loan, considering stable income, age, and potential home purchase goal.
+Educational Loan	3	Likely not relevant unless the customer has dependents planning to attend college, which isn't mentioned.
+Vehicle Loan	7	Possibility of needing a vehicle loan if the customer intends to purchase a car (owns a car but may be considering upgrading).
+Cheque Payments	4	Less likely to need cheque payments unless they prefer traditional payment methods.
+Credit Card	8	Likely to be eligible for and use a credit card given a good income and credit score.
+Online and Mobile Banking	9	Likely to use digital banking extensively, given their profession and income.
+Foreign Exchange	5	Not highly likely unless the customer travels frequently or engages in international investments.
+Investment Services	7	Likely to consider investment services (e.g., mutual funds, stocks) given the relatively high income and possible future wealth-building goals.
+Life Insurance	8	Likely to need life insurance for family protection and asset planning.
+Health Insurance	9	Very likely to have or need health insurance, especially in their age group.
+Property Insurance	8	If they own property, property insurance would be highly relevant.
+Wealth Management	7	Possible interest in wealth management as their wealth grows, especially for long-term goals.
+Safe Deposit Boxes	6	Might be interested in a safe deposit box for important documents or assets.
+Customer 1002 (Age: 45, Occupation: Business Owner, Income: $120,000, etc.)
+Service	Score	Reasoning
+Savings Account	9	Very likely to use a savings account given the high income.
+Current Account	9	Likely to have a current account for daily transactions, especially with business ownership.
+Fixed Deposits	8	Likely to use fixed deposits for securing capital and managing income.
+Term Deposits	7	Likely to use term deposits for medium-term savings or investment planning.
+Recurring Deposits	6	May consider recurring deposits if seeking structured savings, but likely prefers more flexible options.
+Personal Loan	6	Might consider a personal loan for business or personal needs, but not an immediate priority.
+Home Loan	8	Likely to have or need a home loan if not already a homeowner.
+Educational Loan	4	Likely not relevant unless they have dependents considering higher education.
+Vehicle Loan	6	Might need a vehicle loan for business purposes or to upgrade their car.
+Cheque Payments	7	As a business owner, may still use cheque payments for larger transactions.
+Credit Card	9	Likely to have a credit card for business or personal use, especially given their high income and business ownership.
+Online and Mobile Banking	9	Likely to use online/mobile banking for business and personal finances.
+Foreign Exchange	6	Could need foreign exchange if they have international business dealings or travel frequently.
+Investment Services	8	Likely to engage in investment services (stocks, real estate, etc.) given their higher income and business ownership.
+Life Insurance	9	Likely to have life insurance for family and business succession planning.
+Health Insurance	8	Very likely to have health insurance, both personally and for the business.
+Property Insurance	9	Likely to own property and need property insurance, especially for their home or business.
+Wealth Management	8	Likely to consider wealth management services for further growing and managing assets.
+Safe Deposit Boxes	7	Might consider a safe deposit box for important business or personal documents.
+Summary of Scores
+Customer 1001
+Total High Scores (8-10): 10 services
+Moderate Scores (5-7): 7 services
+Low Scores (1-4): 3 services
+Customer 1002
+Total High Scores (8-10): 11 services
+Moderate Scores (5-7): 6 services
+Low Scores (1-4): 3 services
+Key Insights:
+Customer 1001 is a younger customer (32 years old) with a stable job and moderate income, suggesting they are most likely to be interested in home loans, savings accounts, health insurance, and mobile banking. Their needs for personal loans, educational loans, or foreign exchange services are lower at the moment.
+Customer 1002, being a higher-income business owner at 45 years old, is more likely to use services such as investment, wealth management, and property insurance, and also has a high likelihood of requiring credit cards, home loans, and health insurance.
+These scores could be further refined based on more granular customer data, but this should provide a solid starting point for personalized banking service recommendations based on the information you have.
